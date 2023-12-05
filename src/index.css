@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*------------------------------------------------------------------Cointoss Styling-------------------------------------------------*/
+
+
+#contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cointoss-container {
+  width: 90%;
+  height: 90%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#cointoss-heading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+  color: red;
+  font-size: x-large;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.toss-btn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn {
+  height: 30px;
+  width: 10px;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*-------------------------------------------------------------------------------To-do Styling-------------------------------------------*/
+
+.parent-container{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.todo-header {
+  background-color: chartreuse;
+  height: 100px;
+  width: 100%;
+}
+/*same styling for the todo list container as well*/
+#header{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding-left: 100px;
+}
+#filter{
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+}
+.todo-parent-container{
+  height: 100%;
+  width: 100%;
+  
+}
+.todo-child{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+#add-item{
+  margin-top: 10px;
+
+}
+.todo-form{
+  display: flex;
+  margin-top: 10px;
+}
+
+
+ul{
+  list-style-type: none;
+  width: 100%;
+  height: 10%;
+}
+li{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #f8e3e3;
+  display: flex;
+  justify-content: space-between;
+}
